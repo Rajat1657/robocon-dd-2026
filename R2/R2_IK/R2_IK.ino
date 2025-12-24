@@ -6,9 +6,9 @@ The left joystick move the bot front, back, left and right, while the right joys
 #include <USBHost_t36.h>
 
 int FL_LPWM = 0, FL_RPWM = 1; // FRONT LEFT 
-int FR_LPWM = 4, FR_RPWM = 5;
-int BL_LPWM = 22,  BL_RPWM = 23;
-int BR_LPWM = 13,  BR_RPWM = 12;
+int FR_LPWM = 4, FR_RPWM = 5; // FRONT RIGHT
+int BL_LPWM = 22,  BL_RPWM = 23; // BACK LEFT
+int BR_LPWM = 13,  BR_RPWM = 12; // BACK RIGHT
 
 // USB Host objects
 USBHost myusb;
