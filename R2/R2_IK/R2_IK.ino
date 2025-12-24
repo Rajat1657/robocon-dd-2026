@@ -15,7 +15,7 @@ USBHost myusb;
 BluetoothController bluet(myusb, true, "0000");   // PS4 pairing
 JoystickController joystick(myusb);
 
-const int pwmResolution = 14; // PWM Values are from 0 to 16384 (14bit resolution)
+const int pwmResolution = 14; // PWM Values are from 0 to 16383 (14bit resolution)
 const int maxPWM = 500; // Change for higher speeds
 
 float maxSpeed = 1.0;
